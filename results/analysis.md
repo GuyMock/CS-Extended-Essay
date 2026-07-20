@@ -22,13 +22,13 @@ word sits near the front of its dictionary rather than deep inside an alphabetic
 enumeration. On the realistic passwords (e.g. `p@ssw0rd`, `H3llo123`) the heuristic
 still succeeds within a few thousand guesses by composing dictionary words with
 case, leetspeak and suffix rules, while brute force exhausts a 2,000,000-guess
-budget without success — a concrete demonstration that exhaustive search is
-computationally infeasible against an 8–10 character mixed-case password even
+budget without success - a concrete demonstration that exhaustive search is
+computationally infeasible against an 8-10 character mixed-case password even
 though that password is, to a human, obviously weak. The key evaluative point is
 that guessing effort is not the same as password strength: the heuristic exposes
 how predictability (low entropy), not length or character-set size alone,
-determines real-world crackability. Conclude by linking this back to entropy — the
+determines real-world crackability. Conclude by linking this back to entropy - the
 brute-force numbers measure the theoretical keyspace, the heuristic numbers measure
-how little of it a smart attacker actually needs to search — and acknowledge the
+how little of it a smart attacker actually needs to search - and acknowledge the
 limitations (single machine, small L ceiling for feasibility, a hand-built
 dictionary) as directions the investigation could extend.
