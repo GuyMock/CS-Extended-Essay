@@ -1,4 +1,4 @@
-// The "dumb but thorough" cracker. It doesn't think at all - it just tries every
+// The "dumb" cracker. It doesn't think at all - it just tries every
 // possible combination of characters, one after another, until it stumbles onto
 // the right password. Like trying 000, 001, 002... on a combination lock until it
 // opens. It ALWAYS works eventually, but "eventually" can mean billions of years
